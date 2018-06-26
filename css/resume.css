@@ -52,8 +52,13 @@ h2 {
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase; }
-
+.inline-block{
+  display: inline-block;
+}
 @media (min-width: 992px) {
+  /*.inline-block{
+    display: block;
+  }*/
   #sideNav {
     text-align: center;
     position: fixed;
